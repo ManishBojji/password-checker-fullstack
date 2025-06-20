@@ -17,7 +17,7 @@ A fullstack app built with **React + Tailwind (via CDN)** on the frontend and **
 ## Preview
 
 
-[Screenshot](/image.png) -->
+[Screenshot](/image.png)
 
 ---
 
