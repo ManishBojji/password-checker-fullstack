@@ -2,13 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Checker</title>
-    
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .animated-gradient {
+    background: linear-gradient(270deg, #6b46c1, #d53f8c, #ed64a6, #6b46c1);
+    background-size: 800% 800%;
+    animation: gradientShift 15s ease infinite;
+  }
+</style>
+
   </head>
-  <body class="bg-gray-900 text-white">
+  <body class="bg-gray-950 text-white">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
